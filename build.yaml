@@ -2,6 +2,6 @@ include:
   - board: nice_nano
     shield: chitin_left
   - board: nice_nano
-    shield: chitin_right
+    shield: chitin_right_tb
   - board: nice_nano
     shield: settings_reset
