@@ -14,6 +14,6 @@ manifest:
       revision: main
     - name: zmk-driver-pim447
       remote: scybin
-      revision: master
+      revision: main
   self:
     path: config
