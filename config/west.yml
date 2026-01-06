@@ -4,8 +4,6 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: scybin
       url-base: https://github.com/scybin
-    - name: mwandzik
-      url-base: https://github.com/mwandzik
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,7 +13,7 @@ manifest:
       remote: scybin
       revision: main
     - name: zmk-driver-pim447
-      remote: mwandzik
+      remote: scybin
       revision: master
   self:
     path: config
