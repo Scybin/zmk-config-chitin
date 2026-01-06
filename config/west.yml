@@ -11,7 +11,7 @@ manifest:
       import: app/west.yml
     - name: zmk-keyboard-chitin
       remote: scybin
-      revision: main
+      revision: v0.2
     - name: zmk-driver-pim447
       url: https://github.com/mwandzik/zmk-driver-pim447
       revision: master
