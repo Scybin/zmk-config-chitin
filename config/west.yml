@@ -13,7 +13,7 @@ manifest:
       remote: scybin
       revision: main
     - name: zmk-driver-pim447
-      url: https://github.com/mwandzik/zmk-driver-pim447
+      remote: scybin
       revision: master
   self:
     path: config
