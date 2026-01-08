@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: scybin
       url-base: https://github.com/scybin
+    - name: nuovotaka
+      url-base: https://github.com/nuovotaka
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,5 +17,8 @@ manifest:
     - name: zmk-driver-pim447
       remote: scybin
       revision: master
+    - name: zmk-pointing-acceleration-alpha
+      remote: nuovotaka
+      revision: main
   self:
     path: config
