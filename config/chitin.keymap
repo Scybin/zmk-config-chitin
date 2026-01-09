@@ -21,16 +21,6 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
-        tb_mode: trackball_mode {
-            compatible = "zmk,behavior-trackball-mode";
-            #binding-cells = <1>;
-            
-            default-mode = <0>;    /* 0=move, 1=scroll */
-            
-            /* Optional LED colors for each mode (see trackball_pim447.h) */
-            led-mode-move = <2>;   /* Green (LED_GREEN) */
-            led-mode-scroll = <3>; /* Blue (LED_BLUE) */
-        };
     };
 
     keymap {
